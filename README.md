@@ -31,7 +31,7 @@ Before using this formula, the “Kickstarter” table needed to be filtered to 
 (Figure 2)
 
 ### Challenges and Difficulties Encountered
-When using the YEAR() function on the "Launch Date comlumn" for deliverable 1, the function did not work properly as the output was years from the early 1900’s. Through searching online excel forums, it was determined that this was likely due to an issue of cell formatting. After changing the “Launch Date” column from “dd-mm-yyyy” format to long date format, this issue was fixed.
+When using the YEAR() function on the "Launch Date" comlumn for deliverable 1, the function did not work properly as the output was years from the early 1900’s. Through searching online excel forums, it was determined that this was likely due to an issue of cell formatting. After changing the “Launch Date” column from “dd-mm-yyyy” format to long date format, this issue was fixed.
 
 No significant challenges were faced creating the "Outcomes Based on Goals" part of the challenge but the most likely source of error would be forgetting to filter the “Kickstarter” table to include only plays or forgetting to use the "<=" or ">=" operators on the lower or upper limits of a goal range in the COUNTIFS() formulas.
 
